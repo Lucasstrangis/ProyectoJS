@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelera - Productos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <button id="cambiar-tema">Cambiar Tema</button>
+        <h1>Papelera King</h1>
+        <p>Bienvenido/a a nuestra papelera. Aquí encontrarás una variedad de productos para satisfacer tus necesidades.</p>
+    </header>
+
+    <main>
+        <h2>Productos</h2>
+           
+        <ul class="productos-lista">
+            <li>
+                <img src="multimedia/cami.jpg" alt="Bolsa Camiseta">
+                <p>Bolsas Camiseta</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/bolsas-de-arranque.jpg" alt="Bolsa de Arranque">
+                <p>Bolsas de Arranque</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/bandejas-expandido.png" alt="Bandejas de expandido">
+                <p>Bandejas de expandido</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/bandejas-plasticas.jpg" alt="Bandejas plásticas">
+                <p>Bandejas plásticas</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/bandejas-doradas.jpg" alt="Bandejas doradas">
+                <p>Bandejas doradas</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/bandejas-aluminio.jpg" alt="Bandejas de aluminio">
+                <p>Bandejas de aluminio</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/cartoncorrugado.jpeg" alt="Cartón corrugado">
+                <p>Cartón corrugado</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/cintas.jpg" alt="Cintas de embalar">
+                <p>Cintas de embalar</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/papel-diario.jpg" alt="Papel diario">
+                <p>Papel diario</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/film.jpg" alt="Papel film">
+                <p>Papel film</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/papel-manteca.jpeg" alt="Papel manteca">
+                <p>Papel manteca</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+            <li>
+                <img src="multimedia/papel-aluminio.avif" alt="Papel aluminio">
+                <p>Papel aluminio</p>
+                <p>Precio: $18.09</p>
+                <button class="agregar-carrito">Agregar al Carrito</button>
+            </li>
+        </ul>
+
+        <div id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito" class="dark-theme"></ul>
+            <p id="total-carrito" class="dark-theme">Total: $0.00</p>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+        </div>
+   
+
+        <h2>Formulario de Contacto</h2>
+        <form action="/enviar_mensaje" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+
+            <button id="enviar-datos">Enviar Datos</button>
+        </form>
+        
+        <button id="mostrar-datos">Mostrar Datos Almacenados</button>
+    </main>
+
+    <footer>
+        <ul class="redes-sociales">
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100068914587254"><img src="multimedia/facebook.png" alt="Facebook"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/papeleraking/"><img src="multimedia/instagram.png" alt="Instagram"></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

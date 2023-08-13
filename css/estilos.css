@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: #0084A3; 
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #FFFFFF; 
+    background-color: #00A2E8; 
+    padding: 10px;
+    margin: 0;
+}
+
+ul.productos-lista {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+li {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC; 
+    border-radius: 3px;
+}
+
+button {
+    background-color: #0084A3; 
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007093;
+}
+
+footer {
+    background-color: #0084A3; 
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF; 
+}
+
+.redes-sociales {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.redes-sociales li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: black;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}
+
+
+/*  tema oscuro */
+body.dark-theme {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+body.dark-theme header {
+    background-color: #111111;
+}
+
+body.dark-theme h2 {
+    background-color: #222222;
+}
+
+body.dark-theme ul.productos-lista li {
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+body.dark-theme form {
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+body.dark-theme #lista-carrito {
+    background-color: #FFFFFF;
+    color: #222222;
+    border: 1px solid #FFFFFF;
+    padding: 10px; 
+}
+
+body.dark-theme #total-carrito {
+    color: #FFFFFF;
+}
+
+
+
+/* Estilos para los botones */
+button {
+    background-color: #0084A3;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #007093;
+}
+
