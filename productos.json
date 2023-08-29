@@ -1,0 +1,63 @@
+[
+    {
+      "nombre": "Bolsas Camiseta",
+      "precio": 18.09,
+      "imagen": "multimedia/cami.jpg"
+    },
+    {
+      "nombre": "Bolsas de Arranque",
+      "precio": 18.09,
+      "imagen": "multimedia/bolsas-de-arranque.jpg"
+    },
+    {
+      "nombre": "Bandejas de expandido",
+      "precio": 18.09,
+      "imagen": "multimedia/bandejas-expandido.png"
+    },
+    {
+      "nombre": "Bandejas plásticas",
+      "precio": 18.09,
+      "imagen": "multimedia/bandejas-plasticas.jpg"
+    },
+    {
+      "nombre": "Bandejas doradas",
+      "precio": 18.09,
+      "imagen": "multimedia/bandejas-doradas.jpg"
+    },
+    {
+      "nombre": "Bandejas de aluminio",
+      "precio": 18.09,
+      "imagen": "multimedia/bandejas-aluminio.jpg"
+    },
+    {
+      "nombre": "Cartón corrugado",
+      "precio": 18.09,
+      "imagen": "multimedia/cartoncorrugado.jpeg"
+    },
+    {
+      "nombre": "Cintas de embalar",
+      "precio": 18.09,
+      "imagen": "multimedia/cintas.jpg"
+    },
+    {
+      "nombre": "Papel diario",
+      "precio": 18.09,
+      "imagen": "multimedia/papel-diario.jpg"
+    },
+    {
+      "nombre": "Papel film",
+      "precio": 18.09,
+      "imagen": "multimedia/film.jpg"
+    },
+    {
+      "nombre": "Papel manteca",
+      "precio": 18.09,
+      "imagen": "multimedia/papel-manteca.jpeg"
+    },
+    {
+      "nombre": "Papel aluminio",
+      "precio": 18.09,
+      "imagen": "multimedia/papel-aluminio.avif"
+    }
+  ]
+  
